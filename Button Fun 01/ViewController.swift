@@ -20,10 +20,11 @@ class ViewController: UIViewController {
     
     
     @IBAction func buttonpressed(_ sender: Any) {
-    if flag == 0 {
+        if flag == 0{
             view.backgroundColor = UIColor.yellow
             flag = 1
-        }else if flag == 1{
+        }
+        else if flag == 1{
             view.backgroundColor = UIColor.black
             flag = 0
         }
